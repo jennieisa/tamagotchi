@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+}
+
+.siteWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.petWrapper {
+    padding: 50px;
+    max-width: 40%;
+    border: 20px solid palevioletred;
+    box-shadow: 20px 20px 20px gray;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;  
+}
+
+.myPetDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPetDiv img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: palevioletred;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+    letter-spacing: 2px;
+}
+
+label, input, select {
+    font-family:monospace;
+    font-size: 15px;
+}
+
+label {
+    letter-spacing: 2px;
+}
+
+button {
+    font-family: monospace;
+    padding: 15px;
+    font-size: 15px;
+    margin: 5px 0px 5px 0px;
+}
+
+button:hover {
+    background-color: yellowgreen;
+    color: white;
+}
